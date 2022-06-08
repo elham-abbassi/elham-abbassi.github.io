@@ -1,0 +1,141 @@
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 3598px;
+    background-color: #fff;
+}
+
+ul{ 
+    list-style: none;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.Frame{
+    position: absolute;
+    width:1440px ;
+    height:235px;
+    padding-left: 0%;
+    padding-top: 0%;
+    background-color: #1D2A3B;
+}
+
+.Frame ul{
+    position: absolute;
+    padding-top: 41px;
+    padding-left: 450px;
+
+}
+
+.Frame ul li { padding-left: 70px;}
+
+
+#text-head{
+    color:#fff;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 33px;
+    margin-left: 689px;
+    margin-top:80px;
+}
+
+.btn{
+    width:117px ;
+    height:43px ;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #1D2A3B;
+    font-size:12px;
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color:#545CF5;
+    border-color: #545CF5;
+}
+
+
+
+#img-logo{
+    position: absolute;
+    width: 383px;
+    height:255px;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 1055px;
+
+}
+
+#logo{
+    position: absolute; 
+    width: 32px;
+    height: 32px;
+    margin: 35px 90px 188px 1318px;
+}
+
+h1{
+    width: 182px;
+    height: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    position: absolute;
+    font-size:18px;
+    color: #fff;
+    margin: 36px 132px 189px 1126px;
+    text-align: right;
+
+}
+#nav-link dropdown-toggle{
+    color:#fff;
+}
+
+/* Saction sell */
+#sale{
+    width: 1440px; 
+    height:239px; 
+    padding-top:255px;
+
+}
+
+#rate, #today-price, #max-price{
+    padding-top:50px;
+    text-align: right;
+}
+#rate{
+    float: left;
+    
+}
+#coin-label{
+
+}
+#today-price{
+    float: center;
+}
+#today-price table{
+width:254px ;
+height:94px ;
+float: right;
+}
+
+#max-price{
+    float:right;
+}
+
+#today-price th, td {
+    text-align: right;
+}
+
